@@ -1,0 +1,70 @@
+# =====================================================
+# 🔐 Secrets & Environment (VERY IMPORTANT)
+# =====================================================
+.env
+.env.*
+*.env
+serviceAccountKey.json
+firebase_options.dart
+google-services.json
+
+# =====================================================
+# 🐍 Python Backend
+# =====================================================
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+.Python
+
+# =====================================================
+# 🚀 Flutter / Dart
+# =====================================================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.lock
+
+# =====================================================
+# 📱 Flutter Frontend (Subfolder Safe)
+# =====================================================
+cbt-frontend/.dart_tool/
+cbt-frontend/build/
+cbt-frontend/.flutter-plugins
+cbt-frontend/.flutter-plugins-dependencies
+cbt-frontend/.metadata
+
+# =====================================================
+# 🧠 IDE Files
+# =====================================================
+.idea/
+.vscode/
+*.iml
+
+# =====================================================
+# 🤖 Android
+# =====================================================
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+local.properties
+
+# =====================================================
+# 🍎 iOS
+# =====================================================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+
+# =====================================================
+# 💻 System Files
+# =====================================================
+.DS_Store
+Thumbs.db
